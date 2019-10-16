@@ -49,6 +49,13 @@ namespace Hotell
             return room;
         }
 
+        public void key(RoomKeyCard keyCard)
+        {
+            RoomKeyCard roomKey = new RoomKeyCard();
+
+            keyCard.useKeyCard(this);
+            Console.WriteLine($"Cardnr is {roomKey.CardNr}");
+        }
 
 
         
