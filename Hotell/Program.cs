@@ -8,6 +8,9 @@ namespace Hotell
         {
             Hotel hotel = new Hotel();
             hotel.bookRum();
+
+            RoomKeyCard rk = new RoomKeyCard();
+            rk.useKeyCard(hotel);
         }
     }
 }

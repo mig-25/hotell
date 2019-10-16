@@ -49,13 +49,14 @@ namespace Hotell
             return room;
         }
 
-        public void key(RoomKeyCard keyCard)
-        {
-            RoomKeyCard roomKey = new RoomKeyCard();
+        //public void Key(RoomKeyCard keyCard)
+        //{
+        //    RoomKeyCard roomKey = new RoomKeyCard();
+        //    Console.WriteLine($"Cardnr is {roomKey.CardNr}");
 
-            keyCard.useKeyCard(this);
-            Console.WriteLine($"Cardnr is {roomKey.CardNr}");
-        }
+        //    keyCard.useKeyCard(this);
+            
+        //}
 
 
         

@@ -22,6 +22,8 @@ namespace Hotell
             }
         }
 
+        
+
         public void useKeyCard(Hotel hotel)
         {
             cardNr += 1;
