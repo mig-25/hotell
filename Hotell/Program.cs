@@ -6,7 +6,8 @@ namespace Hotell
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Hotel hotel = new Hotel();
+            hotel.bookRum();
         }
     }
 }

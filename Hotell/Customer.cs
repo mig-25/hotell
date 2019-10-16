@@ -1,12 +1,22 @@
 ﻿using System;
+
 namespace Hotell
 {
     public class Customer
     {
         public string Name;
+        public int CustomerId;
+        public int CustomerBonusPoints;
+        
 
         public Customer()
         {
+        }
+
+        public Customer(string cn, int sid)
+        {
+            Name = cn;
+            CustomerId = sid;
         }
 
         public Customer(string name)
@@ -14,9 +24,21 @@ namespace Hotell
             Name = name;
         }
 
-        public void Bonus(LoyaltyCard points)
-        {
-            points.bonusPoints(this);
-        }
+        /*
+         Create method if customerID has a room, add bonus
+         if(room.occupied == true)
+         */
+
+        //public static void Bonus()
+        //{
+
+        //    int cbp;
+
+        //    cbp = CustomerBonusPoints;
+        //    LoyaltyCard points = new LoyaltyCard();
+        //    points.bonusPoints(cbp);
+        //}
+
+
     }
 }

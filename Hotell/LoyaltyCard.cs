@@ -9,10 +9,11 @@ namespace Hotell
         {
         }
 
-        public void bonusPoints(Customer customer)
+        public void bonusPoints(int points)
         {
+            Customer customer = new Customer();
             points += 10;
-            Console.WriteLine($"Your loyalty pooints are: {points}");
+            Console.WriteLine($"Your loyalty points are: {points}");
 
         }
     }
