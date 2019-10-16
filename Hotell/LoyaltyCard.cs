@@ -11,7 +11,6 @@ namespace Hotell
 
         public void bonusPoints(int points)
         {
-            Customer customer = new Customer();
             points += 10;
             Console.WriteLine($"Your loyalty points are: {points}");
 

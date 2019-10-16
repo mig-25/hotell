@@ -10,7 +10,7 @@ namespace Hotell
             hotel.bookRum();
 
             RoomKeyCard rk = new RoomKeyCard();
-            rk.useKeyCard(hotel);
+            rk.useKeyCard(hotel);//association relation to hotell
         }
     }
 }
